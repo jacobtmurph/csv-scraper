@@ -1,0 +1,17 @@
+{
+  "name": "scraper",
+  "version": "0.0.1",
+  "description": "A small web-bases scraper that grabs product info from http://shirts4mike.com/",
+  "main": "scraper.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web",
+    "scraper",
+    "shirts",
+    "products"
+  ],
+  "author": "Jacob T. Murphy",
+  "license": "ISC"
+}
