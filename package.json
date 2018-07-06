@@ -13,5 +13,8 @@
     "products"
   ],
   "author": "Jacob T. Murphy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "scrape-it": "^5.0.5"
+  }
 }
