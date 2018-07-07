@@ -90,7 +90,7 @@ async function logShirtData() {
             //If an error occurs.
             if (err) {
                 //Output the error mesage.
-                console.log(err.message);
+                console.log(err);
             }
             
             //Let the user know the file has been created.
@@ -104,7 +104,7 @@ async function logShirtData() {
             //If an error occurs.
             if (err) {
                 //Output the error message.
-                console.log(err.message);
+                console.log(err);
             };
 
             //Let the user know the file has been created.
