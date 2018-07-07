@@ -15,6 +15,7 @@
   "author": "Jacob T. Murphy",
   "license": "ISC",
   "dependencies": {
+    "papaparse": "^4.5.0",
     "scrape-it": "^5.0.5"
   }
 }
