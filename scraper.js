@@ -83,7 +83,11 @@ async function logShirtData() {
     //If the data folder doesn't exist.
     if (!fs.existsSync("data")) {
         //Create data folder or return errors.
-        fs.mkdir("data", (err) => {return console.log(err.message)});
+        fs.mkdir("data", (err) => {
+            if (err) {
+                return console.log(err);
+            }
+        });
 
         //Create the csv file with the fileName variable.
         fs.writeFile(`data/${fileName}`, Papa.unparse(shirtData), (err) => {
