@@ -28,6 +28,9 @@ function getShirtURLs() {
                 }
             }
         }
+    }).catch( (err) => {
+        console.log(`Error: Could not reach 'http://shirts4mike.com/. Error code: ${err.code}\n\n`);
+
     })
     .then( ({data}) => {
                 //then return a formatted array of links.
